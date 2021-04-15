@@ -199,7 +199,7 @@ class _ItemWidgetState extends State<ItemWidget> {
   Widget build(BuildContext context) {
     return Container(
       child: AnimatedAlign(
-        curve: Curves.fastOutSlowIn,
+        curve: Curves.easeInOutQuad,
         alignment: _getAlignment(),
         duration: const Duration(milliseconds: 500),
         child: Padding(
